@@ -1,0 +1,6 @@
+/.idea
+/logs
+/out
+*.iml
+/reports
+target/
