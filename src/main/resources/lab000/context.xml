@@ -9,13 +9,13 @@ http://www.springframework.org/schema/integration
 http://www.springframework.org/schema/integration/spring-integration.xsd">
 
     <gateway id="helloGateway"
-             service-interface="lab.spring.si.HelloService"
+             service-interface="lab.spring.si.lab000.HelloService"
              default-request-channel="names"/>
 
     <channel id="names"/>
 
     <service-activator input-channel="names" ref="helloService" method="sayHello"/>
 
-    <beans:bean id="helloService" class="lab.spring.si.MyHelloService"/>
+    <beans:bean id="helloService" class="lab.spring.si.lab000.MyHelloService"/>
 
 </beans:beans>

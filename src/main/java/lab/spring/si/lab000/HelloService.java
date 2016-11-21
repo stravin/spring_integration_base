@@ -1,4 +1,4 @@
-package lab.spring.si;
+package lab.spring.si.lab000;
 
 public interface HelloService {
 
